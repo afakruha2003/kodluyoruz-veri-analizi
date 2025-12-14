@@ -80,6 +80,7 @@ A **Linear Regression** model was built using China’s historical renewable ene
 
 ```python
 from sklearn.linear_model import LinearRegression
+import pandas as pd
 
 country = "China"
 df_country = df_renew[df_renew["countries"] == country]
@@ -96,56 +97,58 @@ future_pred = model.predict(future_years)
 
 future_df = future_years.copy()
 future_df["Predicted_Energy"] = future_pred
+```
 
-Comparative Forecasting Across Countries
+## 📈 Comparative Forecasting Across Countries
 
-Using data from 1990–2022, renewable energy growth was projected for the next 10 years
+Using data from **1990–2022**, renewable energy consumption growth was projected for the **next 10 years**.
 
-The analysis identifies the top 10 countries expected to show the highest increase in renewable energy consumption
+The analysis focuses on:
 
-This enables comparative evaluation of energy transition speed across nations
+- Identifying the **top 10 countries** expected to show the highest increase in renewable energy consumption  
+- Comparing **energy transition speeds** across countries  
+- Evaluating long-term adoption patterns based on historical trends  
 
-🧠 Key Findings & Insights
+This approach enables a **comparative assessment of national energy transition dynamics**.
 
-Renewable energy consumption is steadily increasing worldwide
+---
 
-Some countries adopted renewables early, showing strong long-term growth
+## 🧠 Key Findings & Insights
 
-Other countries demonstrate slower but stable adoption patterns
+Key insights derived from the analysis include:
 
-Developed countries generally show higher consumption due to
-advanced technology and infrastructure
+- Renewable energy consumption is **steadily increasing worldwide**  
+- Some countries adopted renewable energy **early**, resulting in strong long-term growth  
+- Other countries show **slower but stable** adoption patterns  
+- Developed countries generally demonstrate higher consumption levels due to:
+  - Advanced technology  
+  - Strong energy infrastructure  
 
-Although China has been the largest renewable energy consumer between 1990–2022,
-projections suggest that the United States will experience the highest growth rate over the next decade
+Although **China** has been the largest renewable energy consumer between **1990–2022**,  
+model projections suggest that **the United States is expected to experience the highest growth rate over the next decade**.
 
-🛠 Technologies & Libraries Used
+---
 
-Python
+## 🛠 Technologies & Libraries Used
 
-Pandas
+The following tools and libraries were used throughout the project:
 
-NumPy
+- **Python**  
+- **Pandas**  
+- **NumPy**  
+- **Matplotlib**  
+- **Seaborn**  
+- **Scikit-learn**  
 
-Matplotlib
+---
 
-Seaborn
-
-Scikit-learn
-
-🚀 Project Contribution
+## 🚀 Project Contribution
 
 This project demonstrates the ability to:
 
-Clean and preprocess real-world datasets
-
-Perform exploratory and comparative data analysis
-
-Analyze time-based trends
-
-Build interpretable machine learning models
-
-Generate future forecasts using historical data
-
-Translate sustainability challenges into data-driven insights
-
+- Clean and preprocess **real-world datasets**  
+- Perform **exploratory and comparative data analysis**  
+- Analyze **time-based trends** in large datasets  
+- Build **interpretable machine learning models**  
+- Generate **future forecasts** using historical data  
+- Translate sustainability challenges into **data-driven insights**
