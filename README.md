@@ -1,6 +1,6 @@
-# 🌱 Renewable Energy Consumption Analysis (1990–2022)
+#  Renewable Energy Consumption Analysis (1990–2022)
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes **renewable energy consumption across countries and regions between 1990 and 2022**, focusing on long-term trends, country-level comparisons, and future projections using machine learning techniques.
 
@@ -8,7 +8,7 @@ The study applies **data preprocessing, exploratory data analysis (EDA), visuali
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 The main objectives of this project are:
 
@@ -21,7 +21,7 @@ The main objectives of this project are:
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 - **Time Period:** 1990 – 2022  
 - **Scope:** Countries and regions worldwide  
@@ -31,7 +31,7 @@ The main objectives of this project are:
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
 Before analysis and modeling, the following preprocessing steps were applied:
 
@@ -51,7 +51,7 @@ These steps ensured **data reliability, consistency, and model compatibility**.
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 During EDA, the following analyses were conducted:
 
@@ -68,7 +68,7 @@ During EDA, the following analyses were conducted:
 
 ---
 
-## 🤖 Machine Learning & Forecasting
+##  Machine Learning & Forecasting
 
 ### Country-Level Forecasting: China Example
 
@@ -99,7 +99,7 @@ future_df = future_years.copy()
 future_df["Predicted_Energy"] = future_pred
 ```
 
-## 📈 Comparative Forecasting Across Countries
+##  Comparative Forecasting Across Countries
 
 Using data from **1990–2022**, renewable energy consumption growth was projected for the **next 10 years**.
 
@@ -113,7 +113,7 @@ This approach enables a **comparative assessment of national energy transition d
 
 ---
 
-## 🧠 Key Findings & Insights
+##  Key Findings & Insights
 
 Key insights derived from the analysis include:
 
@@ -129,7 +129,7 @@ model projections suggest that **the United States is expected to experience the
 
 ---
 
-## 🛠 Technologies & Libraries Used
+##  Technologies & Libraries Used
 
 The following tools and libraries were used throughout the project:
 
@@ -142,7 +142,7 @@ The following tools and libraries were used throughout the project:
 
 ---
 
-## 🚀 Project Contribution
+##  Project Contribution
 
 This project demonstrates the ability to:
 
